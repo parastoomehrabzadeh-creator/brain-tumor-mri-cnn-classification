@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/Training/*
+data/Testing/*
+!data/Training/.gitkeep
+!data/Testing/.gitkeep
+
+# Trained models and logs
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Local temporary files
+.DS_Store
+Thumbs.db
